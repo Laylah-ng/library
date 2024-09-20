@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>LAYLAH'S LIBRARY</h1>
+
+      <dialog id="dialog">
+        <form method="dialog" class="form">
+          <div class="close">
+            <h3>New Book</h3>
+            <button autofocus class="cancel">X</button>
+          </div>
+          <input type="text" placeholder="Title" id="title" required />
+          <input type="text" placeholder="Author" id="author" required />
+          <input type="number" placeholder="Pages" id="page" reqired />
+          <div class="read">
+            <label for="read" id="read">Read</label>
+            <input type="radio" id="read" name="status" />
+            <label for="unread" id="unread">Unread</label>
+            <input type="radio" id="unread" name="status" />
+          </div>
+          <button class="add bg-success" id="submitBtn">add book</button>
+        </form>
+      </dialog>
+
+      <button class="book">Add a New Book</button>
+
+      <div class="library">
+        
+
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
